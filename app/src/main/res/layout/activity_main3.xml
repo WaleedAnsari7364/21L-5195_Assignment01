@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <!-- Top Profile Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/profile_icon"
+            android:paddingRight="16dp"/>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/POSTS"
+                    android:textAlignment="center"
+                    android:textSize="14sp"/>
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/FOLLOWERS"
+                    android:textAlignment="center"
+                    android:textSize="14sp"/>
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/FOLLOWING"
+                    android:textAlignment="center"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+            <!-- Edit Profile Button -->
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/EDIT"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Bio Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/NAME"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BIO"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <!-- Upper Navigation Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/bottom">
+
+        <!-- Assuming drawable resources for the bottom navigation icons -->
+        <!-- Repeat this block for each navigation icon -->
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/nine_dots_icon"
+            android:padding="12dp"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/threee_lines_icon"
+            android:padding="12dp"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/location_icon"
+            android:padding="12dp"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/note_icon"
+            android:padding="12dp"/>
+
+    </LinearLayout>
+
+    <!-- Gallery Section -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:padding="2dp">
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:padding="1dp"
+            android:src="@drawable/gallery_image_1" />
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/gallery_image_2"
+            android:padding="1dp"/>
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/gallery_image_3"
+            android:padding="1dp"/>
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/gallery_image_4"
+            android:padding="1dp"/>
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/gallery_image_5"
+            android:padding="1dp"/>
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/gallery_image_6"
+            android:padding="1dp"/>
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/gallery_image_7"
+            android:padding="1dp"/>
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/gallery_image_8"
+            android:padding="1dp"/>
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/gallery_image_9"
+            android:padding="1dp"/>
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/gallery_image_1"
+            android:padding="1dp"/>
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/gallery_image_2"
+            android:padding="1dp"/>
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/gallery_image_3"
+            android:padding="1dp"/>
+
+
+
+    </GridLayout>
+
+    <!-- Bottom Navigation Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/bottom">
+
+        <!-- Assuming drawable resources for the bottom navigation icons -->
+        <!-- Repeat this block for each navigation icon -->
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/home_icon"
+            android:padding="12dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/search_icon"
+            android:padding="12dp"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/new_post_icon"
+            android:padding="12dp"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/heart"
+            android:padding="12dp"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/profile"
+            android:padding="12dp"/>
+    </LinearLayout>
+</LinearLayout>
+

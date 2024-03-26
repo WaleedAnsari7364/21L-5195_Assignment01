@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Assignment_011</string>
+    <string name="FIRST_NAME">First Name</string>
+    <string name="LAST_NAME">Last Name</string>
+    <string name="EMAIL">waleed@gmail.com</string>
+    <string name="PASSWORD">Password</string>
+    <string name="RETYPE_PASSWORD">Retype Password</string>
+    <string name="MALE">Male</string>
+    <string name="FEMALE">Female</string>
+    <string name="SIGNUP">SIGNUP</string>
+    <string name="EXIT">EXIT</string>
+    <string name="ONE">One</string>
+    <string name="TWO">Two</string>
+    <string name="BACK">Back</string>
+    <string name="GUI_DEMO">GUI Demo (21L-5195)</string>
+    <string name="FOLLOWERS">6530\nfollowers</string>
+    <string name="POSTS">3431\nposts</string>
+    <string name="FOLLOWING">217\nfollowing</string>
+    <string name="EDIT">Edit Profile</string>
+    <string name="NAME">Waleed Imran</string>
+    <string name="BIO">Study At FAST\nwaleed@gmail.com</string>
+</resources>
